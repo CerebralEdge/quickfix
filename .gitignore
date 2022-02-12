@@ -67,3 +67,5 @@ core
 *.log
 *.trs
 CerebralEdge/build
+build
+src/C++/config.h

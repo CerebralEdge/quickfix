@@ -35,7 +35,7 @@
 /* #undef HAVE_BOOST */
 
 /* The system supports boost::shared_ptr */
-#define HAVE_BOOST_SHARED_PTR 1
+/* #undef HAVE_BOOST_SHARED_PTR */
 
 /* Define if clock_gettime exists. */
 #define HAVE_CLOCK_GETTIME 1
@@ -43,8 +43,8 @@
 /* whether or not we have to demangle names */
 /* #undef HAVE_CPLUS_DEMANGLE */
 
-/* define if the compiler supports basic C++17 syntax */
-#define HAVE_CXX17 1
+/* define if the compiler supports basic C++20 syntax */
+/* #undef HAVE_CXX20 */
 
 /* Define to 1 if you have the <dlfcn.h> header file. */
 #define HAVE_DLFCN_H 1
@@ -183,7 +183,7 @@
 
 /* Define to 1 if `lex' declares `yytext' as a `char *' by default, not a
    `char[]'. */
-#define YYTEXT_POINTER 1
+/* #undef YYTEXT_POINTER */
 
 /* enable reentrant system calls */
 #define _REENTRANT 1

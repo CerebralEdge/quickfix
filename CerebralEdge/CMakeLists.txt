@@ -86,3 +86,8 @@ target_link_libraries (compile_bin LINK_PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/../li
 target_include_directories (compile_bin PUBLIC
  ${CMAKE_CURRENT_SOURCE_DIR}/../include/quickfix
 )
+
+add_definitions(
+  -DHAVE_STD_UNIQUE_PTR
+  -DHAVE_STD_SHARED_PTR
+)

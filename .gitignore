@@ -67,5 +67,9 @@ core
 *.log
 *.trs
 CerebralEdge/build
+CerebralEdge/CMakeCache.txt
+CerebralEdge/cmake_install.cmake
+CerebralEdge/compile_bin
+CerebralEdge/CMakeFiles
 build
 src/C++/config.h

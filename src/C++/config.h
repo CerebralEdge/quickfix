@@ -35,7 +35,7 @@
 /* #undef HAVE_BOOST */
 
 /* The system supports boost::shared_ptr */
-/* #undef HAVE_BOOST_SHARED_PTR */
+#define HAVE_BOOST_SHARED_PTR 1
 
 /* Define if clock_gettime exists. */
 #define HAVE_CLOCK_GETTIME 1
@@ -183,7 +183,7 @@
 
 /* Define to 1 if `lex' declares `yytext' as a `char *' by default, not a
    `char[]'. */
-/* #undef YYTEXT_POINTER */
+#define YYTEXT_POINTER 1
 
 /* enable reentrant system calls */
 #define _REENTRANT 1
